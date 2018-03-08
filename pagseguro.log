@@ -2101,3 +2101,15 @@
 09/02/2018 05:27:32 PagSeguro.Session[info]: Begin
 09/02/2018 05:27:32 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=pagseguro%40mercadoleo.com.br&token=E3BC66F6DA224E289DF06CFFCF069B8E
 09/02/2018 05:27:36 PagSeguro.Session[info]: Session ID: 1049f4c21e1846babb656d1f5629683b
+22/02/2018 07:38:01 PagSeguro.Session[info]: Begin
+22/02/2018 07:38:03 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=pagseguro%40mercadoleo.com.br&token=E3BC66F6DA224E289DF06CFFCF069B8E
+22/02/2018 07:38:07 PagSeguro.Session[info]: Session ID: 33b3c8be2ee64139acc227d0cf18da52
+26/02/2018 21:10:42 PagSeguro.Session[info]: Begin
+26/02/2018 21:10:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=pagseguro%40mercadoleo.com.br&token=E3BC66F6DA224E289DF06CFFCF069B8E
+26/02/2018 21:10:44 PagSeguro.Session[info]: Session ID: 97d5a34e63c74574ad0cd4c6cd766386
+28/02/2018 03:24:58 PagSeguro.Session[info]: Begin
+28/02/2018 03:25:00 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=pagseguro%40mercadoleo.com.br&token=E3BC66F6DA224E289DF06CFFCF069B8E
+28/02/2018 03:25:00 PagSeguro.Session[error]: CURL can't connect: Empty reply from server
+28/02/2018 03:25:54 PagSeguro.Session[info]: Begin
+28/02/2018 03:25:54 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=pagseguro%40mercadoleo.com.br&token=E3BC66F6DA224E289DF06CFFCF069B8E
+28/02/2018 03:25:54 PagSeguro.Session[error]: CURL can't connect: Empty reply from server

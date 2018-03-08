@@ -23,12 +23,20 @@
         ?>         
     </div>
 <div class="pag">
-    <?php for($q=1;$q<=$numeroPaginas;$q++): ?>
-     <div class="paginacao <?php echo ($paginaAtual==$q)?'page_active':''; ?>"><a href="<?php echo BASE_URL;?>?<?php 
-        $pag_array = $_GET;
-        $pag_array['p'] = $q;
-        echo http_build_query($pag_array);?>"><?php echo $q; ?></a>
-    </div>
-    <?php endfor;?>
+    <div class="pager">
+        <?php
+        if(isset($_GET['p']) && !empty($_GET['p'])){
+            $atual = intval($_GET['p']);
+        } else{
+            $atual = 1;
+        }
+            $a = $atual - 1;
+            $anterior = 'p='.$a;
+            $p = $atual  + 1;
+            $proxima = 'p='.$p;
+        ?>  
+        <button><a href="<?php echo BASE_URL;?>?<?php echo $anterior;?>">Página Anterior</a></button>
+            <button><a href="<?php echo BASE_URL;?>?<?php echo $proxima;?>">Próxima Página</a></button>
+        </div>
 </div>
 </div>
